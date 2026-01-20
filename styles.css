@@ -521,6 +521,7 @@ body {
     font-weight: 600;
     border-color: var(--accent-teal);
 }
+
 /* Mobile Layout Fixes */
 @media (max-width: 768px) {
     .app-container {
@@ -539,7 +540,7 @@ body {
         align-items: center;
         text-align: center;
     }
-    
+
     .logo-area {
         margin-bottom: 1rem;
         width: 100%;
@@ -573,7 +574,8 @@ body {
     }
 
     .nav-link.active {
-        border-left: 1px solid var(--accent-gold); /* Reset border */
+        border-left: 1px solid var(--accent-gold);
+        /* Reset border */
         background-color: var(--accent-gold);
         color: var(--bg-dark);
         border-color: var(--accent-gold);
@@ -581,7 +583,8 @@ body {
 
     /* Main Content Fixes */
     .main-content {
-        margin-left: 0 !important; /* Force override */
+        margin-left: 0 !important;
+        /* Force override */
         width: 100%;
         padding: 1rem;
     }
@@ -592,8 +595,8 @@ body {
         align-items: flex-start;
         gap: 1rem;
     }
-    
-    .category-header > div {
+
+    .category-header>div {
         flex-direction: column;
         align-items: flex-start !important;
         gap: 1rem;
@@ -603,19 +606,73 @@ body {
         width: 100%;
         justify-content: flex-start;
     }
-    
+
     .view-toggle-btn {
         flex: 1;
         text-align: center;
     }
 
-    /* Table Fixes - Horizontal Scroll */
+    /* Table Fixes - Mobile Stack View (No Scroll) */
     .wallet-card {
         width: 100%;
-        overflow-x: auto;
+        overflow-x: visible;
+        /* Disable scroll */
     }
-    
+
     .wallet-stats-table {
-        min-width: 500px; /* Force table to maintain width so it scrolls instead of squishing */
+        min-width: auto;
+        display: block;
+        width: 100%;
+    }
+
+    .wallet-stats-table thead {
+        display: none;
+        /* Hide table headers */
+    }
+
+    .wallet-stats-table tbody {
+        display: block;
+    }
+
+    .wallet-stats-table tr {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .wallet-stats-table tr:last-child {
+        border-bottom: none;
+    }
+
+    .wallet-stats-table td {
+        padding: 0.25rem 0;
+        border: none;
+        display: block;
+        width: 100% !important;
+        /* Force full width */
+    }
+
+    /* Category Label */
+    .wallet-stats-table td:first-child {
+        font-weight: 600;
+        color: var(--text-secondary);
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+
+    /* Earn Rate */
+    .wallet-stats-table td.earn-col {
+        font-size: 1.25rem;
+        margin-bottom: 0.25rem;
+        color: var(--accent-teal);
+    }
+
+    /* Remarks */
+    .wallet-stats-table td:last-child {
+        font-size: 0.9rem;
+        color: var(--text-secondary);
+        line-height: 1.4;
     }
 }
