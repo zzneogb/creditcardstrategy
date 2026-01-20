@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The MileLion's Credit Card Guide 2026</title>
+    <meta name="description"
+        content="The ultimate guide to credit card rewards for Singaporeans. Maximise your miles with the best cards for every category.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://milelion.com/wp-content/uploads/2019/02/cropped-favicon-1-32x32.png" sizes="32x32">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Navigation Sidebar -->
+        <nav class="sidebar">
+            <div class="logo-area">
+                <h1>The MileLion</h1>
+                <span class="subtitle">Credit Card Guide 2026</span>
+            </div>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search merchant, category...">
+            </div>
+            <ul id="categoryList" class="category-nav">
+                <!-- Categories will be injected here -->
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="hero-section">
+                <div class="hero-content">
+                    <h2>Maximise Your Miles</h2>
+                    <p>The definitive guide to card strategies for every spending category.</p>
+                    <div class="status-pill">Last Updated: 21 December 2025</div>
+                </div>
+            </header>
+
+            <div id="contentArea" class="cards-container">
+                <!-- Data will be rendered here -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Modal for Card Details -->
+    <div id="cardModal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
