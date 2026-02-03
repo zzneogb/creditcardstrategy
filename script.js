@@ -14,18 +14,57 @@ const guideData = [
             { card: "BOC Elite Miles Card", earn: "1.4 mpd", remarks: "" },
             { card: "UOB Visa Infinite Metal Card", earn: "1.4 mpd", remarks: "" },
             { card: "UOB PRVI Miles (AMEX | Mastercard | Visa)", earn: "1.4 mpd", remarks: "" },
-            { card: "StanChart Visa Infinite", earn: "1.4 mpd", remarks: "Min S$2K total spend per s. month, otherwise 1 mpd" }
+            { card: "StanChart Visa Infinite", earn: "1.4 mpd", remarks: "Min S$2K total spend per s. month, otherwise 1 mpd" },
+            { card: "DBS Altitude Card (AMEX | Visa)", earn: "1.3 mpd", remarks: "" },
+            { card: "Citi Prestige Card", earn: "1.3 mpd", remarks: "Up to 0.06/0.12 mpd extra from relationship bonus" },
+            { card: "OCBC 90°N Card (MC | Visa)", earn: "1.3 mpd", remarks: "" },
+            { card: "OCBC VOYAGE Card", earn: "1.3 mpd", remarks: "" },
+            { card: "OCBC Premier Visa Infinite", earn: "1.28 mpd", remarks: "" },
+            { card: "AMEX HighFlyer Card", earn: "1.2 mpd", remarks: "" },
+            { card: "HSBC TravelOne Card", earn: "1.2 mpd", remarks: "" },
+            { card: "Maybank Visa Infinite", earn: "1.2 mpd", remarks: "" },
+            { card: "StanChart Journey Card", earn: "1.2 mpd", remarks: "" },
+            { card: "KrisFlyer UOB Credit Card", earn: "1.2 mpd", remarks: "" },
+            { card: "Citi PremierMiles Card", earn: "1.2 mpd", remarks: "" },
+            { card: "AMEX KrisFlyer Ascend", earn: "1.2 mpd", remarks: "" },
+            { card: "AMEX KrisFlyer Credit Card", earn: "1.1 mpd", remarks: "" },
+            { card: "HSBC Visa Infinite", earn: "1 mpd", remarks: "Step-up earn rates have been sunset" },
+            { card: "Chocolate Visa Card", earn: "1 mpd", remarks: "Max S$1K per c. month, 0.4 mpd after" }
         ]
     },
     {
-        category: "Foreign Currency Spending",
+        category: "Foreign Currency General Spending",
         items: [
             { card: "DCS Imperium Card", earn: "4 mpd", remarks: "Min. S$4K FCY spend per c. month" },
             { card: "Amaze + Citi Rewards", earn: "4 mpd", remarks: "Max S$1K per s. month, excludes travel and mobile wallet" },
             { card: "Maybank XL Card", earn: "4 mpd", remarks: "Min. S$500, max S$1K per c. month" },
             { card: "UOB Visa Signature", earn: "4 mpd", remarks: "Min S$1K, max S$1.2K FCY spend per s. month" },
             { card: "StanChart Beyond Card", earn: "Up to 4 mpd", remarks: "Regular: 3 mpd, PB: 3.5 mpd, PP: 4 mpd" },
-            { card: "Maybank Visa Infinite", earn: "3.2 mpd", remarks: "Min S$4K spend per c. month, otherwise 2 mpd" }
+            { card: "Maybank Visa Infinite", earn: "3.2 mpd", remarks: "Min S$4K spend per c. month, otherwise 2 mpd" },
+            { card: "Maybank World Mastercard", earn: "3.2 mpd", remarks: "Min S$4K spend per c. month. 2.8 mpd if min S$800 spend per c. month, otherwise 0.4 mpd" },
+            { card: "StanChart Visa Infinite", earn: "3 mpd", remarks: "Min S$2K overall spend per s. month, otherwise 1 mpd" },
+            { card: "StanChart Rewards+ Card", earn: "2.9 mpd", remarks: "Max S$2.2K foreign currency spending per m. year" },
+            { card: "BOC Elite Miles Card", earn: "2.8 mpd", remarks: "" },
+            { card: "Maybank Horizon Visa Signature", earn: "2.8 mpd", remarks: "Min S$800 spend per c. month, otherwise 1.2 mpd" },
+            { card: "HSBC Premier Mastercard", earn: "2.76 mpd", remarks: "" },
+            { card: "HSBC TravelOne Card", earn: "2.4 mpd", remarks: "" },
+            { card: "UOB PRVI Miles (AMEX | Mastercard | Visa)", earn: "2.4 mpd", remarks: "3 mpd if in IDR, MYR, THB, VND. 5 mpd on shopping and dining until 31 Dec 25" },
+            { card: "UOB Reserve Card", earn: "2.4 mpd", remarks: "" },
+            { card: "UOB Visa Infinite Metal Card", earn: "2.4 mpd", remarks: "" },
+            { card: "DBS Treasures AMEX", earn: "2.4 mpd", remarks: "" },
+            { card: "OCBC VOYAGE Card", earn: "2.3 mpd", remarks: "(Premier, PPC, BOS)" },
+            { card: "OCBC Premier Visa Infinite", earn: "2.24 mpd", remarks: "" },
+            { card: "Citi PremierMiles Card", earn: "2.2 mpd", remarks: "" },
+            { card: "DBS Altitude (AMEX | Visa)", earn: "2.2 mpd", remarks: "" },
+            { card: "DBS Vantage Card", earn: "2.2 mpd", remarks: "" },
+            { card: "OCBC VOYAGE Card", earn: "2.2 mpd", remarks: "Targeted promo offering 5 mpd until 4 Jan 26" },
+            { card: "OCBC 90°N Card (MC | Visa)", earn: "2.1 mpd", remarks: "Targeted promo offering 4.5 mpd until 4 Jan 26" },
+            { card: "Citi Prestige Card", earn: "2 mpd", remarks: "Up to 0.06/0.12 mpd extra from relationship bonus" },
+            { card: "Citi ULTIMA Card", earn: "2 mpd", remarks: "" },
+            { card: "DBS Insignia Card", earn: "2 mpd", remarks: "" },
+            { card: "HSBC Visa Infinite", earn: "2 mpd", remarks: "Step-up earn rates have been sunset" },
+            { card: "StanChart Journey Card", earn: "2 mpd", remarks: "" },
+            { card: "Chocolate Visa Card", earn: "1 mpd", remarks: "No FCY fees. Max S$1K per c. month, 0.4 mpd after" }
         ]
     },
     {
@@ -34,64 +73,253 @@ const guideData = [
             { card: "DBS Woman's World Card", earn: "4 mpd", remarks: "Max S$1K per c. month" },
             { card: "HSBC Revolution Card", earn: "4 mpd", remarks: "Max S$1.5K per c. month. Ends 28 Feb 26" },
             { card: "Maybank XL Card", earn: "4 mpd", remarks: "Min. S$500, max S$1K per c. month" },
-            { card: "UOB Lady's Card & Lady's Solitaire", earn: "4 mpd", remarks: "Max S$1K (Lady's) / S$750 (Solitaire) per c. month. Travel must be bonus category" },
-            { card: "UOB PRVI Miles", earn: "3 mpd", remarks: "For selected airline bookings on Expedia" },
-            { card: "KrisFlyer UOB Credit Card", earn: "3 mpd", remarks: "SIA & Scoot only" }
+            { card: "UOB Lady's Card & Lady's Solitaire", earn: "4 mpd", remarks: "Max S$1K per c. month for Lady's Card and S$750 per c. month for Lady's Solitaire. Travel must be chosen as bonus category" },
+            { card: "UOB PRVI Miles (AMEX | Mastercard | Visa)", earn: "3 mpd", remarks: "For selected airline bookings on Expedia" },
+            { card: "KrisFlyer UOB Credit Card", earn: "3 mpd", remarks: "SIA & Scoot only" },
+            { card: "Maybank Horizon Visa Signature", earn: "2.8 mpd", remarks: "Min S$800 spend per c. month. Capped at S$10K per c. month." },
+            { card: "AMEX HighFlyer Card", earn: "2 mpd", remarks: "SIA & Scoot only" },
+            { card: "AMEX KrisFlyer Ascend", earn: "2 mpd", remarks: "SIA & Scoot only" },
+            { card: "AMEX KrisFlyer Credit Card", earn: "2 mpd", remarks: "SIA & Scoot only" },
+            { card: "AMEX Platinum Charge", earn: "1.95 mpd", remarks: "SIA & Scoot only" }
+        ]
+    },
+    {
+        category: "Amaze",
+        note: "From 10 March 2025, all SGD-denominated transactions made with Amaze incur a 1% domestic fee (min S$0.50). Footnotes: (1) All transactions except travel; (2) Dining, shopping, entertainment, travel; (3) Clothes, bags, shoes and shopping.",
+        items: [
+            { card: "Citi Rewards Card", earn: "4 mpd", remarks: "Max S$1K per s. month" },
+            { card: "Maybank XL Card", earn: "4 mpd", remarks: "Min. S$500, max S$1K per c. month" },
+            { card: "OCBC Rewards Card", earn: "4 mpd", remarks: "Max S$1.1K per c. month" }
+        ]
+    },
+    {
+        category: "Atome",
+        items: [
+            { card: "Citi Rewards Card", earn: "4 mpd", remarks: "Max S$1K per s. month" },
+            { card: "DBS Woman's World Card", earn: "4 mpd", remarks: "Max S$1K per c. month" },
+            { card: "HSBC Revolution Card", earn: "4 mpd", remarks: "Max S$1.5K per c. month. Ends 28 Feb 26" },
+            { card: "KrisFlyer UOB Credit Card", earn: "2.4 mpd", remarks: "Min. S$1K spend on SIA Group in a m. year. No cap." }
+        ]
+    },
+    {
+        category: "CardUp",
+        note: "See: What's the best card to use for CardUp?",
+        items: []
+    },
+    {
+        category: "Charitable Donations",
+        items: [
+            { card: "Chocolate Visa Card", earn: "1 mpd", remarks: "Card will not work for overseas charities. Max S$1K per c. month, 0.4 mpd after" },
+            { card: "AMEX Centurion", earn: "0.98 mpd", remarks: "" },
+            { card: "AMEX Platinum Charge", earn: "0.78 mpd", remarks: "" }
         ]
     },
     {
         category: "Dining",
         items: [
-            { card: "StanChart Smart Card", earn: "9.28 mpd", remarks: "Min S$1.5K spend (7.42 mpd with min S$800). Selected fast food only" },
+            { card: "StanChart Smart Card", earn: "9.28 mpd", remarks: "Min S$1.5K spend per s. month. 7.42 mpd with min. S$800 spend, 3.71 mpd otherwise. Selected fast food only" },
             { card: "HSBC Revolution Card", earn: "4 mpd", remarks: "Max S$1.5K per c. month. Ends 28 Feb 26" },
             { card: "Maybank XL Card", earn: "4 mpd", remarks: "Min. S$500, max S$1K per c. month" },
-            { card: "UOB Lady's Card & Solitaire", earn: "4 mpd", remarks: "Dining must be chosen as bonus category" },
-            { card: "KrisFlyer UOB Credit Card", earn: "2.4 mpd", remarks: "Min S$1K spend on SIA Group transactions" }
+            { card: "UOB Lady's Card & Lady's Solitaire", earn: "4 mpd", remarks: "Capped at S$1K per c. month for Lady's Card and S$750 per c. month for Lady's Solitaire. Dining must be chosen as bonus category" },
+            { card: "KrisFlyer UOB Credit Card", earn: "2.4 mpd", remarks: "Min S$1K spend on SIA Group transactions in a m. year" }
         ]
     },
     {
-        category: "Public Transportation",
+        category: "Education",
         items: [
-            { card: "DBS yuu Card", earn: "10 mpd", remarks: "Min. S$800, max S$822 per c. month" },
-            { card: "StanChart Smart Card", earn: "9.28 mpd", remarks: "Min S$1.5K spend (7.42 mpd with min S$800)" },
-            { card: "UOB Preferred Platinum Visa", earn: "4 mpd", remarks: "Cap S$600 per c. month" },
-            { card: "UOB Visa Signature", earn: "4 mpd", remarks: "Min S$1K, max S$1.2K per s. month" },
-            { card: "UOB Lady\'s Card & Solitaire", earn: "4 mpd", remarks: "Transport must be chosen as bonus category" }
+            { card: "UOB Reserve Card", earn: "1.6 mpd", remarks: "" },
+            { card: "UOB Visa Infinite Metal Card", earn: "1.4 mpd", remarks: "" },
+            { card: "UOB Privilege Banking Card", earn: "1.2 mpd", remarks: "" },
+            { card: "Maybank Visa Infinite", earn: "1.2 mpd", remarks: "" },
+            { card: "Chocolate Visa Card", earn: "1 mpd", remarks: "Max S$1K per c. month, 0.4 mpd after" },
+            { card: "Maybank Manchester United Card", earn: "0.4 mpd", remarks: "" },
+            { card: "Maybank World Mastercard", earn: "0.4 mpd", remarks: "" },
+            { card: "Maybank XL Card", earn: "0.4 mpd", remarks: "" },
+            { card: "Maybank Horizon Visa Signature", earn: "0.16 mpd", remarks: "Capped at 480 miles per month, shared with all other Selected Categories" }
         ]
     },
     {
-        category: "Online Transactions",
+        category: "EV Charging",
+        note: "This assumes your EV charging codes as MCC 5552. In practice, there could be other MCCs; refer to the post above for the range of possibilities.",
         items: [
-            { card: "OCBC Rewards Card", earn: "6 mpd", remarks: "For Shopee, Lazada, TikTok Shop, Taobao (Cap S$1K). Others 4 mpd." },
-            { card: "Citi Rewards Card", earn: "4 mpd", remarks: "Cap S$1K per s. month, excludes travel" },
+            { card: "DBS yuu Visa", earn: "10 mpd", remarks: "For Charge+. Min. S$800 max S$822 per c. month. Visa card only." },
+            { card: "StanChart Smart Card", earn: "Up to 9.28 mpd", remarks: "Min. S$1.5K per s. month, no cap" },
+            { card: "Citi Rewards Card", earn: "4 mpd", remarks: "Cap S$1K per s. month" },
+            { card: "DBS Woman's World Card", earn: "4 mpd", remarks: "Cap S$1K per c. month" }
+        ]
+    },
+    {
+        category: "Food Delivery",
+        items: [
+            { card: "DBS yuu Card", earn: "10 mpd", remarks: "For Foodpanda. Min. S$800, max S$822 per c. month." },
+            { card: "UOB Lady's Card & Lady's Solitaire", earn: "4 mpd", remarks: "Cap S$1K per c. month for Lady's Card and S$750 per c. month for Lady's Solitaire. Dining must be chosen as bonus category" },
+            { card: "Citi Rewards Card", earn: "4 mpd", remarks: "Cap S$1K per s. month" },
             { card: "DBS Woman's World Card", earn: "4 mpd", remarks: "Cap S$1K per c. month" },
-            { card: "HSBC Revolution Card", earn: "4 mpd", remarks: "Cap S$1.5K per c. month. Ends 28 Feb 26" },
-            { card: "UOB Preferred Platinum Visa", earn: "4 mpd", remarks: "Cap S$600 per c. month" }
+            { card: "Maybank XL Card", earn: "4 mpd", remarks: "Min. S$500, max S$1K per c. month" },
+            { card: "UOB Preferred Platinum Visa", earn: "4 mpd", remarks: "Cap S$600 per c. month" },
+            { card: "StanChart Journey Card", earn: "3 mpd", remarks: "Limit S$1K per s. month, must be online in SGD" },
+            { card: "KrisFlyer UOB Credit Card", earn: "2.4 mpd", remarks: "Min S$1K spend on SIA Group transactions in a m. year" }
         ]
     },
     {
-        category: "PayWave/Mobile",
+        category: "Grab, gojek, TADA, other ride hailing",
         items: [
-            { card: "UOB Preferred Platinum Visa", earn: "4 mpd", remarks: "Limit S$600 per c. month. Mobile payments only." },
-            { card: "UOB Visa Signature", earn: "4 mpd", remarks: "Min S$1K, max S$1.2K per s. month" }
+            { card: "DBS yuu Card", earn: "10 mpd", remarks: "For Gojek. Min. S$800 max S$822 per c. month" },
+            { card: "UOB Lady's Card & Lady's Solitaire", earn: "4 mpd", remarks: "Cap S$1K per c. month for Lady's Card and S$750 per c. month for Lady's Solitaire. Transport must be chosen as bonus category" },
+            { card: "Citi Rewards Card", earn: "4 mpd", remarks: "Cap S$1K per s. month" },
+            { card: "DBS Woman's World Card", earn: "4 mpd", remarks: "Cap S$1K per c. month" },
+            { card: "HSBC Revolution Card", earn: "4 mpd", remarks: "Max S$1.5K per c. month. Ends 28 Feb 26" },
+            { card: "StanChart Journey Card", earn: "3 mpd", remarks: "Cap S$1K per s. month, must be online in SGD" },
+            { card: "KrisFlyer UOB Credit Card", earn: "2.4 mpd", remarks: "Min. S$1K spend on SIA Group transactions in a m. year" }
         ]
     },
     {
-        category: "Groceries",
+        category: "Government services",
         items: [
-            { card: "DBS yuu Card", earn: "10 mpd", remarks: "Cold Storage/Giant. Min S$800/M" },
-            { card: "UOB Lady's Card & Solitaire", earn: "4 mpd", remarks: "Family must be bonus category" },
-            { card: "StanChart Journey Card", earn: "3 mpd", remarks: "Cap S$1K, online in SGD" }
+            { card: "AMEX Solitaire PPS Credit Card", earn: "1.3 mpd", remarks: "" },
+            { card: "AMEX PPS Credit Card", earn: "1.3 mpd", remarks: "" },
+            { card: "AMEX HighFlyer Card", earn: "1.2 mpd", remarks: "" },
+            { card: "AMEX KrisFlyer Ascend", earn: "1.2 mpd", remarks: "" },
+            { card: "AMEX KrisFlyer Credit Card", earn: "1.1 mpd", remarks: "" },
+            { card: "Chocolate Visa Card", earn: "1 mpd", remarks: "Capped at 100 Max Miles per calendar month" },
+            { card: "AMEX Centurion", earn: "0.98 mpd", remarks: "" },
+            { card: "AMEX Platinum Charge", earn: "0.78 mpd", remarks: "" },
+            { card: "AMEX Platinum Reserve", earn: "0.69 mpd", remarks: "" },
+            { card: "AMEX Platinum Credit Card", earn: "0.69 mpd", remarks: "" }
+        ]
+    },
+    {
+        category: "Groceries/Supermarket",
+        items: [
+            { card: "DBS yuu Card", earn: "10 mpd", remarks: "For Cold Storage and Giant. Min. S$800 , max S$822 per c. month" },
+            { card: "UOB Lady's Card & Lady's Solitaire", earn: "4 mpd", remarks: "Cap S$1K per c. month for Lady's Card and S$750 per c. month for Lady's Solitaire. Family must be chosen as your bonus category" },
+            { card: "StanChart Journey Card", earn: "3 mpd", remarks: "Cap S$1K per s. month, must be online in SGD" }
+        ]
+    },
+    {
+        category: "Hospitals",
+        items: [
+            { card: "Citi ULTIMA Card", earn: "1.6 mpd", remarks: "" },
+            { card: "AMEX Solitaire PPS Credit Card", earn: "1.3 mpd", remarks: "Excludes public hospitals" },
+            { card: "AMEX PPS Credit Card", earn: "1.3 mpd", remarks: "Excludes public hospitals" },
+            { card: "OCBC VOYAGE Card", earn: "1.3 mpd", remarks: "Excludes public hospitals" },
+            { card: "OCBC Premier Visa Infinite", earn: "1.28 mpd", remarks: "Excludes public hospitals" },
+            { card: "Maybank Visa Infinite", earn: "1.2 mpd", remarks: "" },
+            { card: "AMEX HighFlyer Card", earn: "1.2 mpd", remarks: "Excludes public hospitals" },
+            { card: "AMEX KrisFlyer Ascend", earn: "1.2 mpd", remarks: "Excludes public hospitals" },
+            { card: "AMEX KrisFlyer Credit Card", earn: "1.1 mpd", remarks: "Excludes public hospitals" },
+            { card: "Chocolate Visa Card", earn: "1 mpd", remarks: "Max S$1K per c. month, 0.4 mpd after. Max 100 miles per month for bill payments" },
+            { card: "AMEX Centurion", earn: "0.98 mpd", remarks: "Excludes public hospitals" },
+            { card: "AMEX Platinum Charge", earn: "0.78 mpd", remarks: "Excludes public hospitals" },
+            { card: "AMEX Platinum Reserve", earn: "0.69 mpd", remarks: "Excludes public hospitals" },
+            { card: "AMEX Platinum Credit Card", earn: "0.69 mpd", remarks: "Excludes public hospitals" },
+            { card: "Maybank World Mastercard", earn: "0.4 mpd", remarks: "" },
+            { card: "Maybank XL Card", earn: "0.4 mpd", remarks: "" }
         ]
     },
     {
         category: "Hotels",
         items: [
-            { card: "Citi PremierMiles Card", earn: "10 mpd", remarks: "Kaligo (10mpd), Agoda (7.2mpd)" },
-            { card: "UOB PRVI Miles", earn: "8 mpd", remarks: "Agoda and Expedia" },
-            { card: "HSBC Revolution Card", earn: "4 mpd", remarks: "Max S$1.5K. Ends 28/2/26" },
-            { card: "UOB Lady's Card & Solitaire", earn: "4 mpd", remarks: "Travel must be bonus category" },
-            { card: "DBS Woman's World Card", earn: "4 mpd", remarks: "Online only. Cap S$1K" }
+            { card: "Citi PremierMiles Card", earn: "10 mpd", remarks: "On Kaligo, 7.2 mpd on Agoda. Refer to T&Cs for exclusions" },
+            { card: "UOB PRVI Miles", earn: "8 mpd", remarks: "On Agoda and Expedia" },
+            { card: "HSBC Revolution Card", earn: "4 mpd", remarks: "Max S$1.5K per c. month. Ends 28 Feb 26" },
+            { card: "UOB Lady's Card & Lady's Solitaire", earn: "4 mpd", remarks: "Cap S$1K per c. month for Lady's Card and S$750 per c. month for Lady's Solitaire. Travel must be chosen as bonus category" },
+            { card: "DBS Woman's World Card", earn: "4 mpd", remarks: "Cap S$1K per c. month. Must be online." },
+            { card: "Maybank XL Card", earn: "4 mpd", remarks: "Min. S$500, max S$1K per c. month" },
+            { card: "KrisFlyer UOB Credit Card", earn: "2.4 mpd", remarks: "Agoda, AirBnB, Booking.com, Expedia, Hotels.com, Kaligo, Traveloka, Trip.com (with min S$1K spend on SIA Group in a m. year)" }
+        ]
+    },
+    {
+        category: "Insurance Premiums",
+        items: [
+            { card: "Maybank Visa Infinite", earn: "1.2 mpd", remarks: "Capped at S$3K per c. month" },
+            { card: "AMEX KrisFlyer Ascend", earn: "1.2 mpd", remarks: "Chubb only" },
+            { card: "AMEX KrisFlyer Credit Card", earn: "1.1 mpd", remarks: "Chubb only" },
+            { card: "Chocolate Visa Card", earn: "1 mpd", remarks: "Max S$1K per c. month, 0.4 mpd after. Max 100 miles per month for bill payments" },
+            { card: "Maybank Horizon Visa Signature", earn: "0.16 mpd", remarks: "Capped at 480 miles per month, shared with all other Selected Categories" }
+        ]
+    },
+    {
+        category: "Kris+",
+        items: [
+            { card: "DBS Woman's World Card", earn: "4 mpd", remarks: "Max. S$1K per c. month" },
+            { card: "Citi Rewards + Amaze", earn: "4 mpd", remarks: "1% admin fee (min. S$0.50) applies for SGD spend. Max. S$1K per s. month. No bonuses for naked Citi Rewards Card" },
+            { card: "KrisFlyer UOB Credit Card", earn: "3 mpd", remarks: "No cap" }
+        ]
+    },
+    {
+        category: "Online Transactions",
+        items: [
+            { card: "OCBC Rewards Card", earn: "6 mpd", remarks: "For Shopee, Lazada, TikTok Shop, Taobao, cap S$1K per c. month. Other online shopping earns 4 mpd, cap S$1.1K per c. month" },
+            { card: "Citi Rewards Card", earn: "4 mpd", remarks: "Cap S$1K per s. month, excludes travel" },
+            { card: "DBS Woman's World Card", earn: "4 mpd", remarks: "Cap S$1K per c. month" },
+            { card: "HSBC Revolution Card", earn: "4 mpd", remarks: "For online shopping and travel, cap S$1.5K per c. month. Ends 28 Feb 26" },
+            { card: "UOB Preferred Platinum Visa", earn: "4 mpd", remarks: "For online shopping and entertainment, cap S$600 per c. month" },
+            { card: "KrisFlyer UOB Credit Card", earn: "2.4 mpd", remarks: "For online shopping and travel, with min S$1K spend on SIA Group in a m. year" }
+        ]
+    },
+    {
+        category: "Paywave/Mobile",
+        items: [
+            { card: "UOB Preferred Platinum Visa", earn: "4 mpd", remarks: "Limit S$600 per c. month. Must use mobile payments; no points for paying with physical card" },
+            { card: "UOB Visa Signature", earn: "4 mpd", remarks: "Min S$1K, max S$1.2K per s. month" }
+        ]
+    },
+    {
+        category: "Petrol",
+        items: [
+            { card: "UOB Lady's Card & Lady's Solitaire", earn: "4 mpd", remarks: "Capped at S$1K per c. month for Lady's Card and S$750 per c. month for Lady's Solitaire. Transport must be chosen as your bonus category" },
+            { card: "UOB Visa Signature", earn: "4 mpd", remarks: "Min. S$1K, max S$1.2K combined spending on petrol and local contactless spend per s. month" },
+            { card: "Maybank World Mastercard", earn: "4 mpd", remarks: "No cap. Offline only" }
+        ]
+    },
+    {
+        category: "Pharmacies",
+        items: [
+            { card: "DBS yuu Card", earn: "10 mpd", remarks: "For Guardian. Min. S$800 max S$822 per c. month" },
+            { card: "OCBC Rewards Card", earn: "4 mpd", remarks: "6 mpd for Watsons. Capped at S$1.1K per c. month" },
+            { card: "HSBC Revolution Card", earn: "4 mpd", remarks: "Cap S$1.5K per c. month. Ends 28 Feb 26" },
+            { card: "UOB Lady's Card & Lady's Solitaire", earn: "4 mpd", remarks: "Capped at S$1K per c. month for Lady's Card and S$750 per c. month for Lady's Solitaire. Beauty & Wellness must be chosen as your bonus category" },
+            { card: "KrisFlyer UOB Credit Card", earn: "2.4 mpd", remarks: "Min S$1K spend on SIA Group transactions in a m. year. Must be online" }
+        ]
+    },
+    {
+        category: "Public Transportation (SimplyGo)",
+        items: [
+            { card: "DBS yuu Card", earn: "10 mpd", remarks: "Min. S$800, max S$822 per c. month" },
+            { card: "StanChart Smart Card", earn: "9.28 mpd", remarks: "Min S$1.5K spend per s. month. 7.42 mpd with min. S$800 spend, 3.71 mpd otherwise" },
+            { card: "UOB Preferred Platinum Visa", earn: "4 mpd", remarks: "Cap S$600 per c. month" },
+            { card: "UOB Visa Signature", earn: "4 mpd", remarks: "Min S$1K, max S$1.2K per s. month" },
+            { card: "UOB Lady's Card & Lady's Solitaire", earn: "4 mpd", remarks: "Capped at S$1K per c. month for Lady's Card and S$750 per c. month for Lady's Solitaire. Transport must be chosen as your bonus category" },
+            { card: "KrisFlyer UOB Credit Card", earn: "2.4 mpd", remarks: "Min S$1K spend on SIA Group transactions in a m. year" }
+        ]
+    },
+    {
+        category: "Shopping",
+        note: "Cap reverts to S$1K per c. month from 1 March 2026. 6 mpd for Watsons, Shopee, Lazada, TikTok Shop and Taobao till 31 December 2025.",
+        items: [
+            { card: "HSBC Revolution Card", earn: "4 mpd", remarks: "38 MCCs. Max S$1.5K per c. month*" },
+            { card: "UOB Preferred Platinum Visa", earn: "4 mpd", remarks: "(Online) 36 MCCs. Max S$600 per c. month" },
+            { card: "Maybank XL Rewards Card", earn: "4 mpd", remarks: "13 MCCs. Min. S$500, max S$1K per c. month" },
+            { card: "OCBC Rewards Card", earn: "4 mpd", remarks: "13 MCCs. Max S$1.1K per c. month" },
+            { card: "Citi Rewards Card", earn: "4 mpd", remarks: "(Offline) 11 MCCs. Max S$1K per s. month" },
+            { card: "UOB Lady's Card", earn: "4 mpd", remarks: "10 MCCs. Max S$1K per c. month, with Fashion as bonus category" },
+            { card: "UOB Lady's Solitaire", earn: "4 mpd", remarks: "10 MCCs. Max S$750 per c. with Fashion as bonus category" },
+            { card: "KrisFlyer UOB Credit Card", earn: "2.4 mpd", remarks: "(Online) 29 MCCs. No cap. Min. S$1K spend on SIA Group in a m. year" }
+        ]
+    },
+    {
+        category: "Telco Bills (Singtel, Starhub, M1 etc)",
+        items: [
+            { card: "DBS yuu Card", earn: "10 mpd", remarks: "For Singtel (must pay at kiosk). Min. S$800, max S$822 per c. month" },
+            { card: "DBS Woman's World Card", earn: "4 mpd", remarks: "Capped at S$1K per c. month, for bills paid via app. No points if set up as recurring credit card payment" },
+            { card: "Citi Rewards Card", earn: "4 mpd", remarks: "Capped at S$1K per s. month, must be paid online or via app. No points if set up as recurring credit card payment" }
+        ]
+    },
+    {
+        category: "Utilities",
+        items: [
+            { card: "Chocolate Visa Card", earn: "1 mpd", remarks: "Max S$1K per c. month, 0.4 mpd after. Max 100 miles per month for bill payments" }
         ]
     }
 ];
@@ -193,7 +421,12 @@ function renderContent(data) {
 
         const header = document.createElement('div');
         header.className = 'category-header';
-        header.innerHTML = `<h3>${category.category}</h3>`;
+        header.innerHTML = `
+            <div class="category-title">
+                <h3>${category.category}</h3>
+                ${category.note ? `<p class="category-note">${category.note}</p>` : ''}
+            </div>
+        `;
 
         const grid = document.createElement('div');
         grid.className = 'cards-grid';
@@ -224,7 +457,14 @@ function renderContent(data) {
         });
 
         section.appendChild(header);
-        section.appendChild(grid);
+        if (category.items.length === 0) {
+            const emptyState = document.createElement('div');
+            emptyState.className = 'category-empty';
+            emptyState.textContent = 'No card list available for this category.';
+            section.appendChild(emptyState);
+        } else {
+            section.appendChild(grid);
+        }
         contentArea.appendChild(section);
     });
 }
@@ -245,6 +485,7 @@ function setupEventListeners() {
             if (category.category.toLowerCase().includes(query) || filteredItems.length > 0) {
                 return {
                     category: category.category,
+                    note: category.note,
                     items: filteredItems.length > 0 ? filteredItems : category.items
                 };
             }

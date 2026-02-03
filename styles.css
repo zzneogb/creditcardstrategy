@@ -184,7 +184,7 @@ body {
 
 .category-header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 1rem;
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 0.5rem;
@@ -194,6 +194,25 @@ body {
     font-size: 1.25rem;
     font-weight: 700;
     color: var(--text-primary);
+}
+
+.category-title {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.category-note {
+    margin: 0;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    max-width: 60ch;
+}
+
+.category-empty {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    padding: 0.5rem 0 1rem;
 }
 
 /* Grid for Cards - COMPACT */
